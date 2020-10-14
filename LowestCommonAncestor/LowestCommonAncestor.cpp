@@ -70,11 +70,11 @@ int main()
     root->right->right->left = newNode(13);
     root->right->right->right = newNode(14);
 
-    cout << lowestCommonAncestor(root, 11, 13)<< '\n';
+    cout << lowestCommonAncestor(root, 11, 13) << '\n';
     cout << lowestCommonAncestor(root, 9, 10) << '\n';
-    cout << lowestCommonAncestor(root, 3, 4)  << '\n';
-    cout << lowestCommonAncestor(root, 7, 8)  << '\n';
-    cout << lowestCommonAncestor(root, 11, 12)<< '\n';
+    cout << lowestCommonAncestor(root, 3, 4) << '\n';
+    cout << lowestCommonAncestor(root, 7, 8) << '\n';
+    cout << lowestCommonAncestor(root, 11, 12) << '\n';
 
     return 0;
 }
